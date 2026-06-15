@@ -22,7 +22,7 @@ function App() {
           </Routes>
         </main>
         <footer className="footer">
-          <p>&copy; 2025 Valerii Vdovin 2510682. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Valerii Vdovin 2510682. All rights reserved.</p>
         </footer>
       </div>
     </Router>
